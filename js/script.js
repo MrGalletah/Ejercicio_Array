@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     if(typeof strangeArray[i] === "string"){
       array.push(strangeArray[i])
       array.sort( (a,b) => { return a.localeCompare(b)})
-      console.log(array)
     }
   }
   showList(array)
